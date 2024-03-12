@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="1050.0" style="-fx-background-color: #02030A;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.emu.netmonitoring.controller.DashboardController">
+    <children>
+        <VBox alignment="TOP_CENTER" layoutX="-8.0" prefHeight="576.0" prefWidth="266.0" style="-fx-background-color: #0F0529;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <ImageView fitHeight="65.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                    <VBox.margin>
+                        <Insets bottom="10.0" top="30.0" />
+                    </VBox.margin>
+               <image>
+                  <Image url="@Logo.png" />
+               </image></ImageView>
+                <Label prefHeight="29.0" prefWidth="202.0" text="Network Monitoring Application" textAlignment="CENTER" textFill="#e7e5e5">
+                    <VBox.margin>
+                        <Insets bottom="20.0" left="10.0" right="5.0" top="10.0" />
+                    </VBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+                </Label>
+            <ScrollPane prefHeight="532.0" prefWidth="266.0" style="-fx-background-color: #0F0529; -fx-border-color: #0F0529;">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="551.0" prefWidth="266.0" style="-fx-background-color: #0F0529; -fx-border-color: #0F0529;">
+                     <children>
+                        <Button alignment="CENTER" layoutX="67.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: #0F0529;" text="Display Network Status" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Segoe UI Emoji" size="12.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <graphic>
+                              <ImageView fitHeight="27.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: #FFFFF;">
+                                 <image>
+                                    <Image url="@gps.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button layoutX="82.0" layoutY="43.0" mnemonicParsing="false" style="-fx-background-color: #0F0529;" text="Ping Functionality" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Segoe UI Emoji" size="12.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </opaqueInsets>
+                           <graphic>
+                              <ImageView fitHeight="27.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: #FFFFF;">
+                                 <image>
+                                    <Image url="@gps.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button layoutX="65.0" layoutY="73.0" mnemonicParsing="false" style="-fx-background-color: #0F0529;" text="Display IP Configuration" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Segoe UI Emoji" size="12.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </opaqueInsets>
+                           <graphic>
+                              <ImageView fitHeight="27.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: #FFFFF;">
+                                 <image>
+                                    <Image url="@gps.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button layoutX="62.0" layoutY="104.0" mnemonicParsing="false" style="-fx-background-color: #0F0529;" text="Network Interface Listing" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Segoe UI Emoji" size="12.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </opaqueInsets>
+                           <graphic>
+                              <ImageView fitHeight="27.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: #FFFFF;">
+                                 <image>
+                                    <Image url="@gps.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button layoutX="69.0" layoutY="135.0" mnemonicParsing="false" style="-fx-background-color: #0F0529;" text="Bandwidth Monitoring" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Segoe UI Emoji" size="12.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </opaqueInsets>
+                           <graphic>
+                              <ImageView fitHeight="27.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: #FFFFF;">
+                                 <image>
+                                    <Image url="@gps.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button layoutX="89.0" layoutY="167.0" mnemonicParsing="false" style="-fx-background-color: #0F0529;" text="Packet Sniffing" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Segoe UI Emoji" size="12.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </opaqueInsets>
+                           <graphic>
+                              <ImageView fitHeight="27.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: #FFFFF;">
+                                 <image>
+                                    <Image url="@gps.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button layoutX="91.0" layoutY="197.0" mnemonicParsing="false" style="-fx-background-color: #0F0529;" text="Port Scanning" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Segoe UI Emoji" size="12.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </opaqueInsets>
+                           <graphic>
+                              <ImageView fitHeight="27.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: #FFFFF;">
+                                 <image>
+                                    <Image url="@gps.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button layoutX="58.0" layoutY="231.0" mnemonicParsing="false" style="-fx-background-color: #0F0529;" text="Network Topology Mapping" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Segoe UI Emoji" size="12.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </opaqueInsets>
+                           <graphic>
+                              <ImageView fitHeight="27.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: #FFFFF;">
+                                 <image>
+                                    <Image url="@gps.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button layoutX="87.0" layoutY="264.0" mnemonicParsing="false" style="-fx-background-color: #0F0529;" text="Alerting System" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Segoe UI Emoji" size="12.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </opaqueInsets>
+                           <graphic>
+                              <ImageView fitHeight="27.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: #FFFFF;">
+                                 <image>
+                                    <Image url="@gps.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button layoutX="56.0" layoutY="264.0" mnemonicParsing="false" style="-fx-background-color: #0F0529;" text="Deep Packet Inspection (DPI)" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Segoe UI Emoji" size="12.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </opaqueInsets>
+                           <graphic>
+                              <ImageView fitHeight="27.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: #FFFFF;">
+                                 <image>
+                                    <Image url="@gps.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button layoutX="54.0" layoutY="297.0" mnemonicParsing="false" style="-fx-background-color: #0F0529;" text="Traffic Analysis and Reporting" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Segoe UI Emoji" size="12.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </opaqueInsets>
+                           <graphic>
+                              <ImageView fitHeight="27.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: #FFFFF;">
+                                 <image>
+                                    <Image url="@gps.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button layoutX="89.0" layoutY="331.0" mnemonicParsing="false" style="-fx-background-color: #0F0529;" text="Authentication" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Segoe UI Emoji" size="12.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </opaqueInsets>
+                           <graphic>
+                              <ImageView fitHeight="27.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: #FFFFF;">
+                                 <image>
+                                    <Image url="@gps.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button layoutX="97.0" layoutY="392.0" mnemonicParsing="false" style="-fx-background-color: #0F0529;" text="Export Data" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Segoe UI Emoji" size="12.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </opaqueInsets>
+                           <graphic>
+                              <ImageView fitHeight="27.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: #FFFFF;">
+                                 <image>
+                                    <Image url="@gps.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button layoutX="66.0" layoutY="363.0" mnemonicParsing="false" style="-fx-background-color: #0F0529;" text="Customizable Dashboard" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Segoe UI Emoji" size="12.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </opaqueInsets>
+                           <graphic>
+                              <ImageView fitHeight="27.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: #FFFFF;">
+                                 <image>
+                                    <Image url="@gps.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button layoutX="78.0" layoutY="422.0" mnemonicParsing="false" style="-fx-background-color: #0F0529;" text="Real-time Updates" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Segoe UI Emoji" size="12.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </opaqueInsets>
+                           <graphic>
+                              <ImageView fitHeight="27.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: #FFFFF;">
+                                 <image>
+                                    <Image url="@gps.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+            </children>
+        </VBox>
+        <StackPane layoutX="258.0" prefHeight="576.0" prefWidth="793.0" style="-fx-background-color: #02030A;">
+            <children>
+                <Pane fx:id="pnlCustomer" prefHeight="200.0" prefWidth="200.0" />
+                <Pane fx:id="pnlOrders" prefHeight="200.0" prefWidth="200.0" />
+                <Pane fx:id="pnlMenus" prefHeight="200.0" prefWidth="200.0" />
+                <Pane fx:id="pnlOverview" prefHeight="554.0" prefWidth="793.0" style="-fx-background-color: #4A2574;">
+                    <children>
+                        <TextField layoutX="584.0" layoutY="47.0" prefHeight="27.0" prefWidth="189.0" promptText="search" style="-fx-background-color: #4A2574; -fx-border-color: #B7C3D7; -fx-border-radius: 2em;" />
+                        <Label layoutX="57.0" layoutY="25.0" text="NET Monitoring" textFill="#e7e5e5">
+                            <font>
+                                <Font size="24.0" />
+                            </font>
+                        </Label>
+                        <HBox alignment="CENTER_LEFT" layoutX="31.0" layoutY="61.0" prefHeight="92.0" prefWidth="661.0" spacing="50.0">
+                            <children>
+                                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                                    <children>
+                                        <Label text="22000" textFill="#2a73ff">
+                                            <font>
+                                                <Font name="System Bold" size="26.0" />
+                                            </font>
+                                        </Label>
+                                        <Label text="Total Users" textFill="#b7c3d7" />
+                                    </children>
+                                </VBox>
+                                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                                    <children>
+                                        <Label text="1500" textFill="#26bfbc">
+                                            <font>
+                                                <Font name="System Bold" size="26.0" />
+                                            </font>
+                                        </Label>
+                                        <Label text="Total delivered" textFill="#b7c3d7" />
+                                    </children>
+                                </VBox>
+                                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                                    <children>
+                                        <Label text="1000" textFill="#fa5f7e">
+                                            <font>
+                                                <Font name="System Bold" size="26.0" />
+                                            </font>
+                                        </Label>
+                                        <Label text="Peding Orders" textFill="#b7c3d7" />
+                                    </children>
+                                </VBox>
+                                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                                    <children>
+                                        <Label text="780" textFill="#de0000">
+                                            <font>
+                                                <Font name="System Bold" size="26.0" />
+                                            </font>
+                                        </Label>
+                                        <Label text="Orders on Hold" textFill="#b7c3d7" />
+                                    </children>
+                                </VBox>
+                            </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" layoutX="45.0" layoutY="178.0" prefHeight="42.0" prefWidth="712.0" spacing="80.0" style="-fx-background-color: #4A2574;">
+                            <children>
+                                <Label text="." textFill="#e7e5e5">
+                                    <HBox.margin>
+                                        <Insets left="50.0" />
+                                    </HBox.margin>
+                                </Label>
+                                <Label text="." textFill="#e7e5e5">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </Label>
+                                <Label text="." textFill="#e7e5e5">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </Label>
+                                <Label text="." textFill="#e7e5e5">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </Label>
+                                <Label text="." textFill="#e7e5e5">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <ScrollPane layoutX="6.0" layoutY="222.0" prefHeight="350.0" prefWidth="784.0" stylesheets="@../../../../../../../../../../RestaurantMgtSampleUI-master/RestaurantMgtSampleUI-master/src/home/style.css">
+                            <content>
+                                <VBox fx:id="pnItems" prefHeight="331.0" prefWidth="770.0" spacing="5.0" style="-fx-background-color: #4A2574; -fx-border-color: #4A2574;">
+                                    <padding>
+                                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                    </padding>
+                           <children>
+                              <VBox fx:id="pnItems1" prefHeight="343.0" prefWidth="758.0" spacing="5.0" style="-fx-background-color: #4A2574; -fx-border-color: #4A2574;">
+                                 <padding>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                                </VBox>
+                            </content>
+                        </ScrollPane>
+                        <ImageView fitHeight="17.0" fitWidth="16.0" layoutX="749.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Grey%20Search.png" />
+                     </image>
+                        </ImageView>
+                    </children>
+                </Pane>
+            </children>
+        </StackPane>
+    </children>
+    <effect>
+        <DropShadow color="#1b1eeb" />
+    </effect>
+</AnchorPane>
