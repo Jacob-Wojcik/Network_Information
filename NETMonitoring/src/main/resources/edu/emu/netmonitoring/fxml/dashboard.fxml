@@ -1,14 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="edu.emu.netmonitoring.controller.DashboardController"
-            prefHeight="400.0" prefWidth="600.0">
-
-</AnchorPane>
+<BorderPane prefHeight="782.0" prefWidth="1820.0" stylesheets="@../css/dashboard.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.emu.netmonitoring.controller.DashboardController">
+   <top>
+      <Pane prefHeight="67.0" prefWidth="1820.0" styleClass="header" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="menuBars" mnemonicParsing="false" prefHeight="70.0" prefWidth="232.0" style="-fx-background-color: transparent;" text="NET Monitoring">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView glyphName="BARS" wrappingWidth="34.0" />
+               </graphic>
+            </Button>
+            <Button fx:id="menuBarsClose" mnemonicParsing="false" prefHeight="70.0" prefWidth="232.0" style="-fx-background-color: transparent;" text="NET Monitoring" visible="false">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView glyphName="CLOSE" size="25" wrappingWidth="35.64285659790039">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </FontAwesomeIconView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnExist" layoutX="1757.0" layoutY="17.0" mnemonicParsing="false" style="-fx-background-color: red;">
+               <graphic>
+                  <FontAwesomeIconView fill="WHITE" glyphName="CLOSE" size="25" textAlignment="CENTER" wrappingWidth="32.64285659790039" />
+               </graphic>
+            </Button>
+         </children>
+      </Pane>
+   </top>
+   <left>
+      <Pane fx:id="sideMenu" prefHeight="715.0" prefWidth="229.0" styleClass="sideMenu" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" prefHeight="174.0" prefWidth="228.0" />
+            <ImageView fx:id="imgLogo" fitHeight="128.0" fitWidth="140.0" layoutX="40.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/Logo.png" />
+               </image>
+            </ImageView>
+            <VBox layoutX="29.0" layoutY="174.0" prefHeight="343.0" prefWidth="197.0" spacing="10.0">
+               <children>
+                  <Button fx:id="btnDashboard" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#homePanel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Home">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <graphic>
+                        <FontAwesomeIconView glyphName="HOME" />
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnPage2" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#page2Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 2">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <graphic>
+                        <FontAwesomeIconView glyphName="CLOSE" text="" />
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnPage3" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#page3Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 3">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <graphic>
+                        <FontAwesomeIconView glyphName="HOME" />
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+   </left>
+   <center>
+      <AnchorPane maxWidth="1820.0" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <StackPane fx:id="panelsContainer" layoutX="5.0" prefHeight="782.0" prefWidth="1531.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="-5.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

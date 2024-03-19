@@ -1,0 +1,23 @@
+.header {
+    -fx-background-color: rgba(255, 153, 0, 0.812);
+
+}
+
+.btnMenuBars {
+    -fx-cursor: pointer;
+    
+}
+
+.btnExist {
+    /*-fx-background-color: ;*/
+    /*background-color: red;*/
+}
+
+.sideMenu {
+    -fx-background-color: rgb(255, 235, 205);
+    /*background-color: blanchedalmond;*/
+}
+
+.sideMenuItem:hover {
+    -fx-background-color: rgb(212, 145, 45);
+}
