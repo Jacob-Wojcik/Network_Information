@@ -5,18 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d276b81-d866-444c-b0c4-77fdb2811f90" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/DashboardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/welcome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/dashboard.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.vscode/settings.json" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/HomePanelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/Panel2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/Panel3Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/homePanel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/page2Panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/page3Panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/Panel2.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/Panel3.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/home.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/NetMonitoringApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/WelcomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/NetMonitoringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/NetMonitoringApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/DashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/WelcomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/welcome.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/welcome.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/welcome.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,14 +33,40 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="devHoH/intergration" />
+                    <option name="lastUsedInstant" value="1710639675" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="devHoH" />
+                    <option name="lastUsedInstant" value="1710639674" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/.." />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,18 +79,26 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Code Files/Courses Projects/Winter 2024/COSC480/NETMonitoring",
+    "last_opened_file_path": "D:/Code Files/Courses Projects/Winter 2024/COSC480/NETMonitoring/src/main/resources/edu/emu/netmonitoring/fxml",
     "list.type.of.created.stylesheet": "CSS",
-    "project.structure.last.edited": "Modules",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.41609195",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code Files\Courses Projects\Winter 2024\COSC480\NETMonitoring\src\main\resources\edu\emu\netmonitoring\fxml" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code Files\Courses Projects\Winter 2024\COSC480\NETMonitoring\src\main\resources\edu\emu\netmonitoring\fxml" />
       <recent name="D:\Code Files\Courses Projects\Winter 2024\COSC480\NETMonitoring\src\main\resources\edu\emu\netmonitoring\Fxml" />
@@ -93,6 +134,11 @@
       <updated>1704986071820</updated>
       <workItem from="1704986073586" duration="285000" />
       <workItem from="1707228636431" duration="1287000" />
+      <workItem from="1710639728381" duration="36000" />
+      <workItem from="1710639785628" duration="5738000" />
+      <workItem from="1710704028664" duration="35000" />
+      <workItem from="1710704078776" duration="7977000" />
+      <workItem from="1710826142957" duration="11216000" />
     </task>
     <servers />
   </component>
@@ -104,10 +150,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NETMonitoring$NetMonitoringApplication.ic" NAME="NetMonitoringApplication Coverage Results" MODIFIED="1710713458289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.emu.netmonitoring.NetMonitoringApplication</FILTER>
+    </SUITE>
   </component>
 </project>
