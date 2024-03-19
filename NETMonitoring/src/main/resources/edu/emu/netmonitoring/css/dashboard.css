@@ -9,13 +9,10 @@
 }
 
 .btnExist {
-    /*-fx-background-color: ;*/
-    /*background-color: red;*/
 }
 
 .sideMenu {
     -fx-background-color: rgb(255, 235, 205);
-    /*background-color: blanchedalmond;*/
 }
 
 .sideMenuItem:hover {
