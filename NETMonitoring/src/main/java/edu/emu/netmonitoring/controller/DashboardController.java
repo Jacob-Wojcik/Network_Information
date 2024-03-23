@@ -96,4 +96,44 @@ public class DashboardController implements Initializable {
         panelsContainer.getChildren().removeAll();
         panelsContainer.getChildren().setAll(fxml);
     }
+    public void page4Panel(ActionEvent actionEvent) throws IOException{
+        Parent fxml = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/edu/emu/netmonitoring/fxml/Panel4.fxml")));
+        panelsContainer.getChildren().removeAll();
+        panelsContainer.getChildren().setAll(fxml);
+    }
+    public void page5Panel(ActionEvent actionEvent) throws IOException{
+        Parent fxml = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/edu/emu/netmonitoring/fxml/Panel5.fxml")));
+        panelsContainer.getChildren().removeAll();
+        panelsContainer.getChildren().setAll(fxml);
+    }
+    public void page6Panel(ActionEvent actionEvent) throws IOException{
+        Parent fxml = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/edu/emu/netmonitoring/fxml/Panel6.fxml")));
+        panelsContainer.getChildren().removeAll();
+        panelsContainer.getChildren().setAll(fxml);
+    }
+    public void page7Panel(ActionEvent actionEvent) throws IOException{
+        Parent fxml = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/edu/emu/netmonitoring/fxml/Panel7.fxml")));
+        panelsContainer.getChildren().removeAll();
+        panelsContainer.getChildren().setAll(fxml);
+    }
+    public void page8Panel(ActionEvent actionEvent) throws IOException{
+        Parent fxml = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/edu/emu/netmonitoring/fxml/Panel8.fxml")));
+        panelsContainer.getChildren().removeAll();
+        panelsContainer.getChildren().setAll(fxml);
+    }
+    public void page9Panel(ActionEvent actionEvent) throws IOException{
+        Parent fxml = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/edu/emu/netmonitoring/fxml/Panel9.fxml")));
+        panelsContainer.getChildren().removeAll();
+        panelsContainer.getChildren().setAll(fxml);
+    }
+    public void page10Panel(ActionEvent actionEvent) throws IOException{
+        Parent fxml = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/edu/emu/netmonitoring/fxml/Panel10.fxml")));
+        panelsContainer.getChildren().removeAll();
+        panelsContainer.getChildren().setAll(fxml);
+    }
+    public void page11Panel(ActionEvent actionEvent) throws IOException{
+        Parent fxml = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/edu/emu/netmonitoring/fxml/Panel11.fxml")));
+        panelsContainer.getChildren().removeAll();
+        panelsContainer.getChildren().setAll(fxml);
+    }
 }
