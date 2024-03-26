@@ -36,14 +36,21 @@ public class NetworkLister {
         }
     }
 
+
     private static void scanHost(String hostAddress) {
-        for (int port = 1; port <= 200; port++) {
+        System.out.println("Scanning host: " + hostAddress);
+        for (int port = 1; port <= 1000; port++) {
+            System.out.println("Attempting to connect to port " + port + " on " + hostAddress);
+            long startTime = System.currentTimeMillis();
             try (Socket socket = new Socket()) {
-                socket.connect(new java.net.InetSocketAddress(hostAddress, port), 100);
-                System.out.println("Port " + port + " is open on " + hostAddress);
+                socket.connect(new java.net.InetSocketAddress(hostAddress, port), 5000); // Set timeout to 5000ms
+                long endTime = System.currentTimeMillis();
+                System.out.println("Port " + port + " is open on " + hostAddress + ". Connection attempt took " + (endTime - startTime) + " ms");
             } catch (Exception ignored) {
-                // Ignoring exceptions to keep the output clean. Closed ports will not be printed.
-                System.out.println("Port " + port + " is closed on " + hostAddress);
+                ignored.printStackTrace();
+                long endTime = System.currentTimeMillis();
+                // Uncomment the following line if you want to see the timing for failed connection attempts as well
+                System.out.println("Port " + port + " is closed on " + hostAddress + ". Connection attempt took " + (endTime - startTime) + " ms");
             }
         }
     }
