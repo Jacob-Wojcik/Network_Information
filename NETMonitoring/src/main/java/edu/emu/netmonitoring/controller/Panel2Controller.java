@@ -40,7 +40,6 @@ public class Panel2Controller {
         public String getInterfaceName() {
             return cInterfaceName;
         }
-
         public String getDisplayName() {
             return cDisplayName;
         }

@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d276b81-d866-444c-b0c4-77fdb2811f90" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1d276b81-d866-444c-b0c4-77fdb2811f90" name="Changes" comment="A basic attempt to set up a table and display the information of a connected network?">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/Panel2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/Panel2Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/Panel2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/Panel2.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/dashboard.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,8 +137,17 @@
       <workItem from="1710704028664" duration="35000" />
       <workItem from="1710704078776" duration="7977000" />
       <workItem from="1710826142957" duration="11216000" />
-      <workItem from="1712065370682" duration="3270000" />
+      <workItem from="1712065370682" duration="4241000" />
     </task>
+    <task id="LOCAL-00001" summary="A basic attempt to set up a table and display the information of a connected network?">
+      <option name="closed" value="true" />
+      <created>1712069069777</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712069069777</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +175,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="A basic attempt to set up a table and display the information of a connected network?" />
+    <option name="LAST_COMMIT_MESSAGE" value="A basic attempt to set up a table and display the information of a connected network?" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
