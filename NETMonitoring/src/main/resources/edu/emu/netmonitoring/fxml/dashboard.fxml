@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane prefHeight="782.0" prefWidth="1820.0" stylesheets="@../css/dashboard.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.emu.netmonitoring.controller.DashboardController">
+<BorderPane prefHeight="700" prefWidth="1000.0" stylesheets="@../css/dashboard.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.emu.netmonitoring.controller.DashboardController">
    <top>
       <Pane prefHeight="67.0" prefWidth="1820.0" styleClass="header" BorderPane.alignment="CENTER">
          <children>
