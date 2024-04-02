@@ -4,9 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d276b81-d866-444c-b0c4-77fdb2811f90" name="Changes" comment="Initial Commit.&#10;&#10;A gesture of a commit. Meant to link the Issue to show that Progress has been made.&#10;&#10;Issue #7">
+    <list default="true" id="1d276b81-d866-444c-b0c4-77fdb2811f90" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/HomePanelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/Panel2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/Panel3Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/homePanel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/page2Panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/page3Panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/Panel2.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/Panel3.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/home.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/NetworkLister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/NetworkLister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/NetMonitoringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/NetMonitoringApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/DashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/WelcomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/welcome.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/welcome.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,31 +33,39 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$/.." value="devTaylor/network-interface-list" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="8657b98c-d6a9-4a66-b89b-88c55676d80b" />
-        <option name="url" value="https://github.com/EpamelisAosinery/COSC480.git" />
-      </UrlAndAccount>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="devHoH/intergration" />
+                    <option name="lastUsedInstant" value="1710639675" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="devHoH" />
+                    <option name="lastUsedInstant" value="1710639674" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/.." />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -52,45 +77,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/idube/Desktop/Current Semester/CyberSecurity(COSC480)/COSC480/NETMonitoring&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.41609195&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Code Files/Courses Projects/Winter 2024/COSC480/NETMonitoring/src/main/resources/edu/emu/netmonitoring/fxml",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.41609195",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code Files\Courses Projects\Winter 2024\COSC480\NETMonitoring\src\main\resources\edu\emu\netmonitoring\fxml" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code Files\Courses Projects\Winter 2024\COSC480\NETMonitoring\src\main\resources\edu\emu\netmonitoring\fxml" />
       <recent name="D:\Code Files\Courses Projects\Winter 2024\COSC480\NETMonitoring\src\main\resources\edu\emu\netmonitoring\Fxml" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NetworkLister">
-    <configuration name="IntegratedScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.emu.netmonitoring.controller.IntegratedScanner" />
-      <module name="NETMonitoring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.emu.netmonitoring.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="NetMonitoringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.emu.netmonitoring.NetMonitoringApplication" />
       <module name="NETMonitoring" />
@@ -104,37 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NetworkLister" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.emu.netmonitoring.controller.NetworkLister" />
-      <module name="NETMonitoring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.emu.netmonitoring.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PortScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.emu.netmonitoring.controller.PortScanner" />
-      <module name="NETMonitoring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.emu.netmonitoring.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NetworkLister" />
-        <item itemvalue="Application.IntegratedScanner" />
-        <item itemvalue="Application.PortScanner" />
         <item itemvalue="Application.NetMonitoringApplication" />
       </list>
     </recent_temporary>
@@ -149,39 +134,12 @@
       <updated>1704986071820</updated>
       <workItem from="1704986073586" duration="285000" />
       <workItem from="1707228636431" duration="1287000" />
-      <workItem from="1707234311706" duration="141000" />
-      <workItem from="1707337989208" duration="101000" />
-      <workItem from="1707834962985" duration="252000" />
-      <workItem from="1707835222335" duration="788000" />
-      <workItem from="1707931274723" duration="354000" />
-      <workItem from="1708906196438" duration="3443000" />
-      <workItem from="1709407707725" duration="1773000" />
-      <workItem from="1709649242744" duration="2098000" />
-      <workItem from="1709652272376" duration="293000" />
-      <workItem from="1709757894931" duration="955000" />
+      <workItem from="1710639728381" duration="36000" />
+      <workItem from="1710639785628" duration="5738000" />
+      <workItem from="1710704028664" duration="35000" />
+      <workItem from="1710704078776" duration="7977000" />
+      <workItem from="1710826142957" duration="11216000" />
     </task>
-    <task id="LOCAL-00001" summary="Initial Commit.&#10;&#10;Does not display information in a nice way to the gui.&#10;But I believe it does connect to and list every network and it's status, as well as some additional information (whether we need that or not).">
-      <created>1709408408527</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1709408408527</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Initial Commit.&#10;&#10;Doesn't have all the port information displaying correctly. But I believe this commit to contain the necessary classes to efficiently scan and display the ports information accurately. &#10;&#10;Issue #8">
-      <created>1709408929559</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1709408929559</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Initial Commit.&#10;&#10;A gesture of a commit. Meant to link the Issue to show that Progress has been made.&#10;&#10;Issue #7">
-      <created>1709409090249</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1709409090249</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +156,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/devTaylor/network-interface-list" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -210,10 +168,9 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial Commit.&#10;&#10;Does not display information in a nice way to the gui.&#10;But I believe it does connect to and list every network and it's status, as well as some additional information (whether we need that or not)." />
-    <MESSAGE value="Initial Commit.&#10;&#10;Doesn't have all the port information displaying correctly. But I believe this commit to contain the necessary classes to efficiently scan and display the ports information accurately. &#10;&#10;Issue #8" />
-    <MESSAGE value="Initial Commit.&#10;&#10;A gesture of a commit. Meant to link the Issue to show that Progress has been made.&#10;&#10;Issue #7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit.&#10;&#10;A gesture of a commit. Meant to link the Issue to show that Progress has been made.&#10;&#10;Issue #7" />
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NETMonitoring$NetMonitoringApplication.ic" NAME="NetMonitoringApplication Coverage Results" MODIFIED="1710713458289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.emu.netmonitoring.NetMonitoringApplication</FILTER>
+    </SUITE>
   </component>
 </project>
