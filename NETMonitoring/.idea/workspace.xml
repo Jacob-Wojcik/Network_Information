@@ -5,32 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d276b81-d866-444c-b0c4-77fdb2811f90" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/Panel10Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/Panel11Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/Panel4Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/Panel5Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/Panel6Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/Panel7Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/Panel8Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/Panel9Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/page10Panel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/page11Panel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/page4Panel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/page5Panel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/page6Panel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/page7Panel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/page8Panel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/page9Panel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/Panel10.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/Panel11.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/Panel4.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/Panel5.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/Panel6.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/Panel7.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/Panel8.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/Panel9.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/DashboardController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/dashboard.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +135,8 @@
       <workItem from="1710859912327" duration="170000" />
       <workItem from="1711144057831" duration="475000" />
       <workItem from="1711211476562" duration="7343000" />
-      <workItem from="1711219131633" duration="7454000" />
+      <workItem from="1711219131633" duration="7733000" />
+      <workItem from="1712175269826" duration="1383000" />
     </task>
     <servers />
   </component>
