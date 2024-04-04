@@ -6,14 +6,24 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" prefHeight="268.0" prefWidth="387.0" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.emu.netmonitoring.controller.WelcomeController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-    </padding>
+<VBox alignment="CENTER" prefHeight="344.0" prefWidth="459.0" spacing="20.0" style="-fx-background-color: purple; -fx-border-width: 10; -fx-border-color: pink;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.emu.netmonitoring.controller.WelcomeController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
 
-    <Label fx:id="welcomeText" />
-    <Button onAction="#onLaunchButtonClick" prefHeight="44.0" prefWidth="116.0" text="Launch">
+   <Label fx:id="welcomeText" prefHeight="0.0" prefWidth="268.0" text="NET Monitoring" textAlignment="CENTER" textFill="#ffcdf4">
+      <font>
+         <Font name="System Bold Italic" size="36.0" />
+      </font>
+   </Label>
+   <Button onAction="#onLaunchButtonClick" prefHeight="44.0" prefWidth="116.0" style="-fx-background-color: white;" text="Launch" textFill="#404040">
       <font>
          <Font size="20.0" />
-      </font></Button>
+      </font>
+   </Button>
+   <Button mnemonicParsing="false" onAction="#onExitButtonClick" style="-fx-background-color: purple;" text="EXIT" textFill="WHITE">
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font>
+   </Button>
 </VBox>

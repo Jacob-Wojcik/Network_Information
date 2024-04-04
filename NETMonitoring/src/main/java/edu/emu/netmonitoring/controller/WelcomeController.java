@@ -4,6 +4,7 @@ import edu.emu.netmonitoring.NetMonitoringApplication;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
@@ -27,5 +28,14 @@ public class WelcomeController {
         dashboardStage.setScene(dashboardScene);
         dashboardStage.show();
 
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.close();
     }
+
+    @FXML
+    protected void onExitButtonClick(ActionEvent actionEvent) {
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.close();
+    }
+
 }
