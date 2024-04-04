@@ -4,26 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d276b81-d866-444c-b0c4-77fdb2811f90" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/HomePanelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/Panel2Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/Panel3Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/homePanel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/page2Panel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/page3Panel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/Panel2.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/Panel3.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/home.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="1d276b81-d866-444c-b0c4-77fdb2811f90" name="Changes" comment="A basic attempt to set up a table and display the information of a connected network?">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/NetMonitoringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/NetMonitoringApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/DashboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/WelcomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/css/dashboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/dashboard.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/welcome.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/welcome.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +53,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
   <component name="ProjectId" id="2aoXn7i8vB6R3pVhyGcFmfILVSu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -79,6 +64,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.NetMonitoringApplication.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -86,13 +72,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Code Files/Courses Projects/Winter 2024/COSC480/NETMonitoring/src/main/resources/edu/emu/netmonitoring/fxml",
     "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.41609195",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.JavaFX",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -124,6 +115,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-18.0.2-corretto-18.0.2-4caba194b151-5720f15e" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -139,7 +137,17 @@
       <workItem from="1710704028664" duration="35000" />
       <workItem from="1710704078776" duration="7977000" />
       <workItem from="1710826142957" duration="11216000" />
+      <workItem from="1712065370682" duration="4241000" />
     </task>
+    <task id="LOCAL-00001" summary="A basic attempt to set up a table and display the information of a connected network?">
+      <option name="closed" value="true" />
+      <created>1712069069777</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712069069777</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +175,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="A basic attempt to set up a table and display the information of a connected network?" />
+    <option name="LAST_COMMIT_MESSAGE" value="A basic attempt to set up a table and display the information of a connected network?" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NETMonitoring$NetMonitoringApplication.ic" NAME="NetMonitoringApplication Coverage Results" MODIFIED="1710713458289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
