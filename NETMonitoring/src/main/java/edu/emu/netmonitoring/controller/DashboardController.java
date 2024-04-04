@@ -37,7 +37,7 @@ public class DashboardController implements Initializable {
             System.exit(0);
         });
 
-        sideMenu.setTranslateX(-230);
+        sideMenu.setTranslateX(0);
         menuBars.setOnMouseClicked(event -> {
             TranslateTransition slide = new TranslateTransition();
             slide.setDuration(Duration.seconds(0.4));

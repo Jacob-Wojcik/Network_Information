@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d276b81-d866-444c-b0c4-77fdb2811f90" name="Changes" comment="">
+    <list default="true" id="1d276b81-d866-444c-b0c4-77fdb2811f90" name="Changes" comment="UPDATED">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/welcome.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/welcome.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/DashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/WelcomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/dashboard.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/controller/DashboardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/controller/DashboardController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/controller/Export.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/controller/Export.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/controller/NetworkLister.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/controller/NetworkLister.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/controller/Panel2Controller$NetworkInterfaceInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/controller/Panel2Controller$NetworkInterfaceInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/controller/Panel2Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/controller/Panel2Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/fxml/welcome.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/fxml/welcome.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/controller/WelcomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/controller/WelcomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/fxml/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/fxml/dashboard.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,30 +68,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.NetMonitoringApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Code Files/Courses Projects/Winter 2024/COSC480/NETMonitoring/src/main/resources/edu/emu/netmonitoring/fxml&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.41609195&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.NetMonitoringApplication.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "jacob",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Code Files/Courses Projects/Winter 2024/COSC480/NETMonitoring/src/main/resources/edu/emu/netmonitoring/fxml",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.41609195",
+    "settings.editor.selected.configurable": "preferences.JavaFX",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Code Files\Courses Projects\Winter 2024\COSC480\NETMonitoring\src\main\resources\edu\emu\netmonitoring\fxml" />
@@ -186,7 +185,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="A basic attempt to set up a table and display the information of a connected network?" />
-    <option name="LAST_COMMIT_MESSAGE" value="A basic attempt to set up a table and display the information of a connected network?" />
+    <MESSAGE value="UPDATED" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATED" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
