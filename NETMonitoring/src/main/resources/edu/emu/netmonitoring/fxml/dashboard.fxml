@@ -17,7 +17,7 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<!-- MUST REMOVE THE LINE BELOW FOR SCENE BUILDER -->
+<!-- MUST REMOVE THE LINE BELOW FOR SCENE BUILDERs -->
 <?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
 
 
