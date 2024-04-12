@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Panel3.fxml -->
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="edu.emu.netmonitoring.controller.Panel3Controller"
+      spacing="10"
+      alignment="CENTER">
 
-<StackPane prefHeight="250" prefWidth="200" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.emu.netmonitoring.controller.Panel3Controller">
-   <Pane prefHeight="200.0" prefWidth="200.0">
-      <children>
-          <Button onAction="#toggleVisibility" text="Toggle Visibility" />
-          <Label fx:id="networkTypeLabel" layoutX="10.0" layoutY="99.0" prefHeight="20.0" prefWidth="186.0" style="-fx-font-size: 14px; -fx-text-fill: black;" />
-          <Label fx:id="ipAddressLabel" layoutX="6.0" layoutY="173.0" prefHeight="20.0" prefWidth="193.0" style="-fx-font-size: 14px; -fx-text-fill: black;" />
-          <Label fx:id="dateTimeLabel" layoutX="20.0" layoutY="43.0" prefHeight="20.0" prefWidth="166.0" style="-fx-font-size: 14px; -fx-text-fill: black;" />
-      </children>
-   </Pane>
-</StackPane>
+    <Label fx:id="latencyLabel" text="Latency: Unknown"/>
+</VBox>

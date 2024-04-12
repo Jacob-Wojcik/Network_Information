@@ -19,6 +19,7 @@
          <Label fx:id="dateTimeLabel" layoutX="323.0" layoutY="410.0" prefHeight="17.0" prefWidth="139.0" style="-fx-alignment: center; -fx-text-fill: white" />
          <Label fx:id="ipAddressLabel" layoutX="214.0" layoutY="393.0" prefHeight="17.0" prefWidth="360.0" style="-fx-alignment: center; -fx-text-fill: white" />
          <Label fx:id="networkTypeLabel" layoutX="172.0" layoutY="376.0" prefHeight="17.0" prefWidth="443.0" style="-fx-alignment: center; -fx-text-fill: white" />
+         <Label fx:id="latencyLabel" layoutX="344.0" layoutY="427.0" style="-fx-alignment: center; -fx-text-fill: white" text="Latency: Unknown" />
       </children>
    </Pane>
 </StackPane>

@@ -97,6 +97,19 @@
                         <Cursor fx:constant="HAND" />
                      </cursor>
                   </Button>
+
+                  <Button fx:id="btnPage4" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#page4Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 4">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <graphic>
+                        <FontAwesomeIconView glyphName="HOME" />
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+
                   <Button fx:id="btnExport" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#ExportPanel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Export">
                      <font>
                         <Font size="18.0" />
