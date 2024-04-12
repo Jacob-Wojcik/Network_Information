@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.*?>
+<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.effect.*?>
 <?import javafx.scene.layout.*?>
@@ -51,11 +52,20 @@
                <font>
                   <Font name="System Bold" size="21.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button layoutX="364.0" layoutY="315.0" mnemonicParsing="false" onAction="#onExitButtonClick" style="-fx-background-color: transparent;" text="EXIT" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Glow level="0.7" />
+               </effect>
             </Button>
       </children>
     </AnchorPane>

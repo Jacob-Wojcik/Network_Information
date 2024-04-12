@@ -41,10 +41,7 @@
             <Button fx:id="btnExist" layoutX="947.0" layoutY="10.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: red; -fx-background-radius: 15;" styleClass="sideMenu">
                <cursor>
                   <Cursor fx:constant="HAND" />
-               </cursor>
-               <effect>
-                  <Reflection />
-               </effect></Button>
+               </cursor></Button>
             <Text fill="WHITE" layoutX="955.0" layoutY="43.0" mouseTransparent="true" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="23.078125">
                <font>
                   <Font name="Calibri Bold" size="39.0" />

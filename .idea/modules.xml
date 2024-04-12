@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/COSC480.iml" filepath="$PROJECT_DIR$/.idea/COSC480.iml" />
-      <module fileurl="file://$PROJECT_DIR$/NETMonitoring/NETMonitoring.iml" filepath="$PROJECT_DIR$/NETMonitoring/NETMonitoring.iml" />
     </modules>
   </component>
 </project>

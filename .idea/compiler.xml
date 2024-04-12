@@ -9,8 +9,5 @@
         <module name="NETMonitoring" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="NETMonitoring" target="18" />
-    </bytecodeTargetLevel>
   </component>
 </project>
