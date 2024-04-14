@@ -75,7 +75,7 @@
                         <Cursor fx:constant="HAND" />
                      </cursor>
                   </Button>
-                  <Button fx:id="btnPage2" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#page2Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 2">
+                  <Button fx:id="btnPage2" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#page2Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Net Info">
                      <font>
                         <Font size="18.0" />
                      </font>
@@ -86,7 +86,7 @@
                         <Cursor fx:constant="HAND" />
                      </cursor>
                   </Button>
-                  <Button fx:id="btnPage3" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#page3Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 3">
+                  <Button fx:id="btnPage3" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#page3Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Latency">
                      <font>
                         <Font size="18.0" />
                      </font>
@@ -98,7 +98,7 @@
                      </cursor>
                   </Button>
 
-                  <Button fx:id="btnPage4" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#page4Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 4">
+                  <Button fx:id="btnPage4" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#page4Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Tracert">
                      <font>
                         <Font size="18.0" />
                      </font>

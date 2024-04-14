@@ -8,7 +8,7 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<VBox alignment="CENTER" prefHeight="268.0" prefWidth="387.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.emu.netmonitoring.controller.WelcomeController">
+<VBox alignment="CENTER" prefHeight="268.0" prefWidth="387.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.emu.netmonitoring.controller.WelcomeController">
     <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="451.0" prefWidth="809.0" style="-fx-background-color: linear-gradient(to left bottom, #021634, #2d1946, #581149, #7e003c, #981022);;" VBox.vgrow="ALWAYS">
       <children>
@@ -27,7 +27,7 @@
                   <Glow level="1.0" />
                </effect>
             </Line>
-            <Label layoutX="219.0" layoutY="359.0" prefHeight="64.0" prefWidth="387.0" text="Creators: Hadi H. , Hoa H. , Genyuan L. , Jacob , Jonathan, Kevin, Asem" textFill="WHITE">
+            <Label layoutX="182.0" layoutY="359.0" prefHeight="64.0" prefWidth="434.0" text="Creators: Hadi H. , Hoa H. , Genyuan L. , Jacob , Jonathan, Kevin, Asem" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="System Bold Italic" size="13.0" />
                </font>
