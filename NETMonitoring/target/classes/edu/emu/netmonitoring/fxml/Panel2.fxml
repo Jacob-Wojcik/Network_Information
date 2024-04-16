@@ -6,7 +6,7 @@
 <Pane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
       fx:controller="edu.emu.netmonitoring.controller.Panel2Controller">
     <children>
-        <Label text="Network Information">
+        <Label text="Local">
             <font>
                 <Font name="System Bold" size="40"/>
             </font>
@@ -17,7 +17,9 @@
                 <TableColumn fx:id="cInterfaceName" prefWidth="100.0" text="Interface Name"/>
                 <TableColumn fx:id="cDisplayName" prefWidth="200.0" text="Display Name"/>
                 <TableColumn fx:id="cIPAddress" prefWidth="150.0" text="IP Address"/>
+                <TableColumn fx:id="cIPType" prefWidth="75.0" text="IP Type"/>
                 <TableColumn fx:id="cStatus" prefWidth="50.0" text="Status"/>
+
             </columns>
         </TableView>
     </children>

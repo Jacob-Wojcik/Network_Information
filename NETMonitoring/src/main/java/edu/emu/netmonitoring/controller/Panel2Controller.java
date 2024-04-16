@@ -15,10 +15,11 @@ import java.util.Enumeration;
 public class Panel2Controller {
 
     public void initialize() {
-        cInterfaceName.setCellValueFactory(new PropertyValueFactory<>("interfaceName"));
-        cDisplayName.setCellValueFactory(new PropertyValueFactory<>("displayName"));
-        cIPAddress.setCellValueFactory(new PropertyValueFactory<>("ipAddress"));
-        cStatus.setCellValueFactory(new PropertyValueFactory<>("status"));
+        this.cInterfaceName.setCellValueFactory(new PropertyValueFactory<>("interfaceName"));
+        this.cDisplayName.setCellValueFactory(new PropertyValueFactory<>("displayName"));
+        this.cIPAddress.setCellValueFactory(new PropertyValueFactory<>("ipAddress"));
+        this.cStatus.setCellValueFactory(new PropertyValueFactory<>("status"));
+        this.cIPType.setCellValueFactory(new PropertyValueFactory<>("IPType"));
 
         tableView.setItems(getNetworkInterfaces());
     }
@@ -40,6 +41,7 @@ public class Panel2Controller {
         public String getInterfaceName() {
             return cInterfaceName;
         }
+
         public String getDisplayName() {
             return cDisplayName;
         }
@@ -52,13 +54,28 @@ public class Panel2Controller {
             return cStatus;
         }
 
+        // created a hack of how to tell if a network was ipv4 or ipv6
+        public String getIPType() {
+
+            if (getIpAddress().contains(":")) {
+
+                return "IPv6";
+            } else if (getIpAddress().contains(".")) {
+                return "IPv4";
+            } else {
+                return "Unknown";
+            }
+
+
+        }
+
 
     }
 
     @FXML
     private TableView<NetworkInterfaceInfo> tableView;
     @FXML
-    private TableColumn<NetworkInterfaceInfo, String> cInterfaceName, cDisplayName, cIPAddress, cStatus;
+    private TableColumn<NetworkInterfaceInfo, String> cInterfaceName, cDisplayName, cIPAddress, cStatus, cIPType, cAction;
 
     private ObservableList<NetworkInterfaceInfo> getNetworkInterfaces() {
 
@@ -83,6 +100,5 @@ public class Panel2Controller {
 
         return networkInterfaces;
     }
-
 
 }
