@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.StackPane?>
-<?import javafx.scene.control.ProgressBar?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
-<?import javafx.geometry.Pos?>
-<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.text.Font?>
 
-<StackPane xmlns:fx="http://javafx.com/fxml/1" prefWidth="800" prefHeight="600">
-    <!-- Background -->
-    <VBox style="-fx-background-color: linear-gradient(to bottom, #8E44AD, #E91E63); -fx-border-color: #fff; -fx-border-width: 2px;" prefWidth="800" prefHeight="600">
-        <!-- Loading Content -->
-        <VBox spacing="20" alignment="CENTER" prefWidth="800" prefHeight="600">
-            <Label text="Welcome" style="-fx-text-fill: white; -fx-font-size: 48; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 10, 0, 0, 0);" />
-            <Label text="Loading..." style="-fx-text-fill: white; -fx-font-size: 36; -fx-font-weight: bold; -fx-translate-y: -20; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 10, 0, 0, 0);" />
-            <ProgressBar prefWidth="400" prefHeight="20" maxWidth="Infinity" />
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="272.0" prefWidth="510.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <VBox alignment="CENTER" layoutY="-3.0" maxHeight="-1.0" maxWidth="-1.0" prefHeight="280.0" prefWidth="510.0" style="-fx-background-color: linear-gradient(to left bottom, #021634, #2d1946, #581149);">
+            <ImageView fitHeight="200.0" fitWidth="200.0">
+                <image>
+                    <Image url="@../Downloads/480logo.png" />
+                </image>
+            </ImageView>
+            <Label blendMode="SOFT_LIGHT" prefHeight="49.0" prefWidth="258.0" text="NetMonitoring">
+                <font>
+                    <Font name="System Bold" size="38.0" />
+                </font>
+            </Label>
+            <!-- Progress Bar -->
+            <ProgressBar prefWidth="400" prefHeight="20" />
         </VBox>
-    </VBox>
-</StackPane>
+    </children>
+</AnchorPane>
