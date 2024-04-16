@@ -14,6 +14,13 @@ import java.util.Enumeration;
 
 public class Panel2Controller {
 
+    @FXML
+    private TableView<NetworkInterfaceInfo> tableView;
+    @FXML
+    private TableColumn<NetworkInterfaceInfo, String> cInterfaceName, cDisplayName, cIPAddress, cStatus, cIPType;
+
+    // There are javafx components in this file that are linked with an fxml file
+    // initialize is called to build / populate a table utilizing that layout
     public void initialize() {
         this.cInterfaceName.setCellValueFactory(new PropertyValueFactory<>("interfaceName"));
         this.cDisplayName.setCellValueFactory(new PropertyValueFactory<>("displayName"));
@@ -21,9 +28,11 @@ public class Panel2Controller {
         this.cStatus.setCellValueFactory(new PropertyValueFactory<>("status"));
         this.cIPType.setCellValueFactory(new PropertyValueFactory<>("IPType"));
 
+        // populate the table with the appropriate information
         tableView.setItems(getNetworkInterfaces());
     }
 
+    // the core of the class. This is the Network Interface Information
     public static class NetworkInterfaceInfo {
 
         private String cInterfaceName;
@@ -72,23 +81,23 @@ public class Panel2Controller {
 
     }
 
-    @FXML
-    private TableView<NetworkInterfaceInfo> tableView;
-    @FXML
-    private TableColumn<NetworkInterfaceInfo, String> cInterfaceName, cDisplayName, cIPAddress, cStatus, cIPType, cAction;
-
+    // really the whole thing. Collection of the Information about all the network interfaces
     private ObservableList<NetworkInterfaceInfo> getNetworkInterfaces() {
-
+        // a place to store all the info
         ObservableList<NetworkInterfaceInfo> networkInterfaces = FXCollections.observableArrayList();
 
         try {
-
+            // try to run through all network interfaces on a local machine
             Enumeration<NetworkInterface> interfaces = NetworkInterface.getNetworkInterfaces();
-
+            // loop through them... while theres another network interface
             while (interfaces.hasMoreElements()) {
+                // snag all of the addresses assigned to it
                 NetworkInterface individualInterface = interfaces.nextElement();
                 Enumeration<InetAddress> inetAddresses = individualInterface.getInetAddresses();
+                // while there are addresses to go through
                 while (inetAddresses.hasMoreElements()) {
+                    // add a new instance of that class to the list
+                    // snag its info
                     InetAddress theAddress = inetAddresses.nextElement();
                     networkInterfaces.add(new NetworkInterfaceInfo(individualInterface.getName(), individualInterface.getDisplayName(), theAddress.getHostAddress(), individualInterface.isUp() ? "Up" : "Down"));
                 }
@@ -97,7 +106,7 @@ public class Panel2Controller {
             throw new RuntimeException(e);
         }
 
-
+        // return all the info
         return networkInterfaces;
     }
 
