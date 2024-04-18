@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<?import javafx.scene.text.Font?>
-
-<Pane xmlns="http://javafx.com/javafx"
-      xmlns:fx="http://javafx.com/fxml"
-      fx:controller="edu.emu.netmonitoring.controller.HomePanelController"
-      prefHeight="400.0" prefWidth="600.0">
-    <children>
-        <Label text="Home Panel">
+<StackPane prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.emu.netmonitoring.controller.HomePanelController">
+   <Pane prefHeight="700.0" prefWidth="745.0">
+      <children>
+          <Label fx:id="networkStatusLabel" prefHeight="700.0" prefWidth="784.0" style="-fx-font-size: 40px; -fx-font-weight: bold; -fx-text-fill: white; -fx-background-color: #4CAF50; -fx-padding: 10px; -fx-border-radius: 5px; -fx-alignment: center;" text="Network Status" textAlignment="CENTER">
             <font>
-                <Font name="System Bold" size="40"/>
+               <Font size="30.0" />
+            </font></Label>
+         <Label layoutY="130.0" prefHeight="93.0" prefWidth="784.0" style="-fx-alignment: center;" text="Current Network Status" textAlignment="CENTER" textFill="WHITE">
+            <font>
+               <Font name="System Bold" size="64.0" />
             </font>
-        </Label>
-    </children>
-</Pane>
+         </Label>
+         <Label fx:id="dateTimeLabel" layoutX="323.0" layoutY="410.0" prefHeight="17.0" prefWidth="139.0" style="-fx-alignment: center; -fx-text-fill: white" />
+         <Label fx:id="ipAddressLabel" layoutX="214.0" layoutY="393.0" prefHeight="17.0" prefWidth="360.0" style="-fx-alignment: center; -fx-text-fill: white" />
+         <Label fx:id="networkTypeLabel" layoutX="172.0" layoutY="376.0" prefHeight="17.0" prefWidth="443.0" style="-fx-alignment: center; -fx-text-fill: white" />
+         <Label fx:id="latencyLabel" layoutX="344.0" layoutY="427.0" style="-fx-alignment: center; -fx-text-fill: white" text="Latency: Unknown" />
+      </children>
+   </Pane>
+</StackPane>

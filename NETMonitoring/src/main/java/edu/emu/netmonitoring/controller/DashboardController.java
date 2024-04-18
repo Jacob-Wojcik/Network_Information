@@ -30,14 +30,25 @@ public class DashboardController implements Initializable {
     private Pane sideMenu;
     @FXML
     private StackPane panelsContainer;
+    @FXML
+    private Button btnDashboard;
+    @FXML
+    private Button btnPage2;
+    @FXML
+    private Button btnPage3;
+    @FXML
+    private Button btnPage4;
+    @FXML
+    private Button btnExport;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        btnDashboard.setStyle("-fx-background-color: orange;");
         btnExist.setOnMouseClicked(event -> {
             System.exit(0);
         });
 
-        sideMenu.setTranslateX(-230);
+        sideMenu.setTranslateX(0);
         menuBars.setOnMouseClicked(event -> {
             TranslateTransition slide = new TranslateTransition();
             slide.setDuration(Duration.seconds(0.4));
@@ -85,20 +96,63 @@ public class DashboardController implements Initializable {
         Parent fxml = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/edu/emu/netmonitoring/fxml/home.fxml")));
         panelsContainer.getChildren().removeAll();
         panelsContainer.getChildren().setAll(fxml);
+
+        // Change the background color
+        btnDashboard.setStyle("-fx-background-color: orange;");
+        btnPage2.setStyle("-fx-background-color: transparent;");
+        btnPage3.setStyle("-fx-background-color: transparent;");
+        btnPage4.setStyle("-fx-background-color: transparent;");
+        btnExport.setStyle("-fx-background-color: transparent;");
     }
+
     public void page2Panel(ActionEvent actionEvent) throws IOException{
         Parent fxml = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/edu/emu/netmonitoring/fxml/Panel2.fxml")));
         panelsContainer.getChildren().removeAll();
         panelsContainer.getChildren().setAll(fxml);
+
+        // Change the background color
+        btnDashboard.setStyle("-fx-background-color: transparent;");
+        btnPage2.setStyle("-fx-background-color: orange;");
+        btnPage3.setStyle("-fx-background-color: transparent;");
+        btnPage4.setStyle("-fx-background-color: transparent;");
+        btnExport.setStyle("-fx-background-color: transparent;");
+
     }
+
     public void page3Panel(ActionEvent actionEvent) throws IOException{
         Parent fxml = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/edu/emu/netmonitoring/fxml/Panel3.fxml")));
         panelsContainer.getChildren().removeAll();
         panelsContainer.getChildren().setAll(fxml);
+
+        // Change the background color
+        btnDashboard.setStyle("-fx-background-color: transparent;");
+        btnPage2.setStyle("-fx-background-color: transparent;");
+        btnPage3.setStyle("-fx-background-color: orange;");
+        btnPage4.setStyle("-fx-background-color: transparent;");
+        btnExport.setStyle("-fx-background-color: transparent;");
+    }
+    public void page4Panel(ActionEvent actionEvent) throws IOException{
+        Parent fxml = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/edu/emu/netmonitoring/fxml/Panel4.fxml")));
+        panelsContainer.getChildren().removeAll();
+        panelsContainer.getChildren().setAll(fxml);
+
+        // Change the background color
+        btnDashboard.setStyle("-fx-background-color: transparent;");
+        btnPage2.setStyle("-fx-background-color: transparent;");
+        btnPage3.setStyle("-fx-background-color: transparent;");
+        btnPage4.setStyle("-fx-background-color: orange;");
+        btnExport.setStyle("-fx-background-color: transparent;");
     }
     public void ExportPanel(ActionEvent actionEvent) throws IOException{
         Parent fxml = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/edu/emu/netmonitoring/fxml/Export.fxml")));
         panelsContainer.getChildren().removeAll();
         panelsContainer.getChildren().setAll(fxml);
+
+        // Change the background color
+        btnDashboard.setStyle("-fx-background-color: transparent;");
+        btnPage2.setStyle("-fx-background-color: transparent;");
+        btnPage3.setStyle("-fx-background-color: transparent;");
+        btnPage4.setStyle("-fx-background-color: transparent;");
+        btnExport.setStyle("-fx-background-color: orange;");
     }
 }

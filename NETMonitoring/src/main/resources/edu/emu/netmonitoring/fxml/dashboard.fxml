@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.Pane?>
-<?import javafx.scene.layout.StackPane?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.text.Font?>
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<BorderPane prefHeight="700" prefWidth="1000.0" stylesheets="@../css/dashboard.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.emu.netmonitoring.controller.DashboardController">
+<BorderPane prefHeight="700" prefWidth="1000.0" stylesheets="@../css/dashboard.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.emu.netmonitoring.controller.DashboardController">
    <top>
       <Pane prefHeight="67.0" prefWidth="1820.0" styleClass="header" BorderPane.alignment="CENTER">
          <children>
-            <Button fx:id="menuBars" mnemonicParsing="false" prefHeight="70.0" prefWidth="232.0" style="-fx-background-color: transparent;" text="NET Monitoring">
+            <Button fx:id="menuBars" mnemonicParsing="false" prefHeight="70.0" prefWidth="232.0" style="-fx-background-color: transparent;" text="NET Monitoring" visible="false">
                <font>
                   <Font name="System Bold" size="21.0" />
                </font>
                <graphic>
                   <FontAwesomeIconView glyphName="BARS" wrappingWidth="34.0" />
                </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
-            <Button fx:id="menuBarsClose" mnemonicParsing="false" prefHeight="70.0" prefWidth="232.0" style="-fx-background-color: transparent;" text="NET Monitoring" visible="false">
+            <Button fx:id="menuBarsClose" mnemonicParsing="false" prefHeight="70.0" prefWidth="232.0" style="-fx-background-color: transparent;" text="NET Monitoring">
                <font>
                   <Font name="System Bold" size="21.0" />
                </font>
@@ -35,12 +34,22 @@
                      </font>
                   </FontAwesomeIconView>
                </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
-            <Button fx:id="btnExist" layoutX="1757.0" layoutY="17.0" mnemonicParsing="false" style="-fx-background-color: red;">
-               <graphic>
-                  <FontAwesomeIconView fill="WHITE" glyphName="CLOSE" size="25" textAlignment="CENTER" wrappingWidth="32.64285659790039" />
-               </graphic>
-            </Button>
+            <Button fx:id="btnExist" layoutX="947.0" layoutY="10.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: red; -fx-background-radius: 15;" styleClass="sideMenu">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Text fill="WHITE" layoutX="955.0" layoutY="43.0" mouseTransparent="true" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="23.078125">
+               <font>
+                  <Font name="Calibri Bold" size="39.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+            </Text>
          </children>
       </Pane>
    </top>
@@ -62,23 +71,45 @@
                      <graphic>
                         <FontAwesomeIconView glyphName="HOME" />
                      </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
                   </Button>
-                  <Button fx:id="btnPage2" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#page2Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 2">
+                  <Button fx:id="btnPage2" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#page2Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Local">
                      <font>
                         <Font size="18.0" />
                      </font>
                      <graphic>
                         <FontAwesomeIconView glyphName="CLOSE" text="" />
                      </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
                   </Button>
-                  <Button fx:id="btnPage3" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#page3Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 3">
+                  <Button fx:id="btnPage3" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#page3Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Latency">
                      <font>
                         <Font size="18.0" />
                      </font>
                      <graphic>
                         <FontAwesomeIconView glyphName="HOME" />
                      </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
                   </Button>
+
+                  <Button fx:id="btnPage4" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#page4Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Tracert">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <graphic>
+                        <FontAwesomeIconView glyphName="HOME" />
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+
                   <Button fx:id="btnExport" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#ExportPanel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Export">
                      <font>
                         <Font size="18.0" />
@@ -86,6 +117,9 @@
                      <graphic>
                         <FontAwesomeIconView glyphName="HOME" />
                      </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
                   </Button>
                </children>
             </VBox>

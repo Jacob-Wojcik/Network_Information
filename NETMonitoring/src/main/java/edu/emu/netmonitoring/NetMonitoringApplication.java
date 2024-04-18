@@ -33,6 +33,7 @@ public class NetMonitoringApplication extends Application {
         stage.setScene(scene);
         stage.show();
 
+
 //        FXMLLoader dashboardFXML = new FXMLLoader(NetMonitoringApplication.class.getResource("/edu/emu/netmonitoring/fxml/dashboard.fxml"));
 //        Parent dashboardRoot = dashboardFXML.load();
 //        Scene dashboardScene  = new Scene(new BorderPane(dashboardRoot));
